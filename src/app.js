@@ -65,3 +65,5 @@ function displayCards(){
 //if I could have done that then I would have added event listeners to each contact that would open them in the section display one contact
 
 //from there I would have created a button through here and then displayed it in the display one contact section. Then would have added an event listener to it that when clicked displayed the all contacts list section. 
+
+//I know I'm going to fail so see you again soon
