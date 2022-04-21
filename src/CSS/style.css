@@ -25,8 +25,8 @@ img {
 /* styles */
 .container {
   display: flex;
-
-
+  justify-content: space-between;
+  flex-direction: column;
   font-family: 'Inter', sans-serif;
   background-color: var(--white);
 }
@@ -45,17 +45,24 @@ header p {
   color: var(--grey);
 }
 
+
 header ul {
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
 header li {
   list-style: none;
+
+
+
 }
 
 header a {
   text-decoration: none;
+  color: #494a5c;
+
 
 
   font-size: 2rem;
@@ -66,6 +73,7 @@ header a:hover {
 }
 
 main {
+  height: 100vh;
 
 }
 

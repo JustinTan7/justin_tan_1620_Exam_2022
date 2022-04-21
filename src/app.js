@@ -52,3 +52,14 @@ const contactsList = [
 ]
 
 // Your code goes here
+
+//defining variables that will be used
+const contactArea = document.querySelector("#display_all_contacts")
+
+
+function displayCards(){
+  for (let item=0;item<contactsList.length;item++){
+    contactArea.appendChild(contactsList[item])
+  }
+}
+
