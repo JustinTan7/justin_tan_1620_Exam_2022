@@ -55,11 +55,13 @@ const contactsList = [
 
 //defining variables that will be used
 const contactArea = document.querySelector("#display_all_contacts")
+//what I am trying to do is create a space where the cards will be added
 
-
+// this is supposed to add each contact to the space I specified, tried iterating through the array and adding it to the space, didn't work. Tried this where inserting it into the html, didn't work.
 function displayCards(){
-  for (let item=0;item<contactsList.length;item++){
-    contactArea.appendChild(contactsList[item])
+  document.body.insertAdjacentHTML('beforeend', contactsList.join('<br/>'));
   }
-}
 
+//if I could have done that then I would have added event listeners to each contact that would open them in the section display one contact
+
+//from there I would have created a button through here and then displayed it in the display one contact section. Then would have added an event listener to it that when clicked displayed the all contacts list section. 
